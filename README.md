@@ -20,7 +20,7 @@ Author: Nyarko Kennedy · Materials Laboratory, Ghana Highway Authority
 Every site (including the Class 0 “no manifestation” site) produced a minimum FS < 1.0.  
 The calculated FS values do **not** rank in the same order as the real-world surface damage severity.
 
-This is the deliberate, counter-intuitive result the project is built around — and the reason for the title.
+This is the deliberate, counter-intuitive result the project is built around — and the reason for the title. This matters because current CPT-based liquefaction assessment practice treats Factor of Safety as a proxy for surface damage risk. These results show that FS alone does not reliably rank sites by observed manifestation severity — a gap that motivates looking beyond triggering FS toward severity-index or displacement-based approaches (e.g. LPI, LSN) for practical hazard assessment.
 
 Thin-layer correction changed the numerical FS values (sometimes substantially) but never moved any site across the FS = 1.0 threshold, and did not restore a monotonic severity ranking.
 
@@ -41,7 +41,7 @@ Thin-layer correction changed the numerical FS values (sometimes substantially) 
 
 ### Repository contents
 
-- Full Python implementation (`liquefaction_assessment.py`)
+- Full Python implementation (`CPT_Liquefaction_Analysis.py`)
 - Site selection, stress calculation, Ic iteration, CRR/CSR, FS profiles
 - Comparison of measured vs thin-layer-corrected CPT data
 - Publication-quality plots
@@ -54,13 +54,13 @@ pandas
 numpy  
 matplotlib  
 
-The Canterbury CPT dataset (`CANTERBURYDATASET.pkl`) from Geyin et al. (2021) is required to re-run the analysis.
+The Canterbury CPT dataset (`CANTERBURYDATASET.pkl`) from Geyin et al. (2021) is required to re-run the analysis, and is available from the DesignSafe-CI data depot under project PRJ-2937 (https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2937). Place the file in the repository root before running the script.
 
 ---
 
 ### How to run
 
-python liquefaction_assessment.py
+python CPT_Liquefaction_Analysis.py
 
 The script will:
 
