@@ -24,6 +24,8 @@ This is the deliberate, counter-intuitive result the project is built around —
 
 Thin-layer correction changed the numerical FS values (sometimes substantially) but never moved any site across the FS = 1.0 threshold, and did not restore a monotonic severity ranking.
 
+![Minimum FS trend across manifestation classes](plots/plot2_minFS_trend.png)
+
 ---
 
 ### Results summary (minimum FS)
@@ -41,10 +43,10 @@ Thin-layer correction changed the numerical FS values (sometimes substantially) 
 
 ### Repository contents
 
-- Full Python implementation (`CPT_Liquefaction_Analysis.py`)
+- src/Full Python implementation (`CPT_Liquefaction_Analysis.py`)
 - Site selection, stress calculation, Ic iteration, CRR/CSR, FS profiles
-- Comparison of measured vs thin-layer-corrected CPT data
-- Publication-quality plots
+- plots/Publication-quality plots (measured vs thin-layer-corrected FS profiles)
+- reports/Full technical report and condensed summary(PDF)
 
 ---
 
@@ -58,6 +60,10 @@ The Canterbury CPT dataset (`CANTERBURYDATASET.pkl`) from Geyin et al. (2021) is
 Place the file in the repository root (not inside `src/`) before running the script, the script looks one level up from where it's run.
 
 ---
+
+### Full write-up
+
+See `reports/Beyond Factor of Safety Full Report.pdf` for the complete technical report, or `reports/Beyond Factor of Safety_Summary.pdf` for a condensed summary.
 
 ### How to run
 
