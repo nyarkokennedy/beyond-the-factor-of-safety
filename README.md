@@ -55,7 +55,7 @@ See `requirements.txt`. Install with:
 pip install -r requirements.txt
 
 The Canterbury CPT dataset (`CANTERBURYDATASET.pkl`) from Geyin et al. (2021) is required to re-run the analysis, and is available from the DesignSafe-CI data depot under project PRJ-2937 (https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2937).
-Place the file in the repository root (not inside `src/`) before running the script — the script looks one level up from where it's run.
+Place the file in the repository root (not inside `src/`) before running the script, the script looks one level up from where it's run.
 
 ---
 
