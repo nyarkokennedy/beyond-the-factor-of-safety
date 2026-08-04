@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 # STAGE 0: LOAD DATA
 
-df = pd.read_pickle("CANTERBURYDATASET.pkl")
+df = pd.read_pickle("../CANTERBURYDATASET.pkl")
 
 
 # STAGE 1: SITE SELECTION
@@ -273,7 +273,7 @@ ax.set_ylim(0, 0.6)
 ax.legend()
 ax.grid(axis="y", alpha=0.3)
 plt.tight_layout()
-plt.savefig("plot1_minFS_bar.png", dpi=300, bbox_inches="tight")
+plt.savefig("../plots/plot1_minFS_bar.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Plot 2 – Trend view
@@ -292,7 +292,7 @@ ax.set_ylim(0, 0.6)
 ax.legend()
 ax.grid(True, alpha=0.3)
 plt.tight_layout()
-plt.savefig("plot2_minFS_trend.png", dpi=300, bbox_inches="tight")
+plt.savefig("../plots/plot2_minFS_trend.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Plot 3 – FS profiles for Class 0 and Class 5
@@ -335,7 +335,7 @@ ax2.legend()
 
 fig.suptitle("Factor of Safety Profiles – Class 0 vs Class 5", fontsize=13)
 plt.tight_layout()
-plt.savefig("plot3_FS_profiles.png", dpi=300, bbox_inches="tight")
+plt.savefig("../plots/plot3_FS_profiles.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Plot 4 – FS profiles for all six sites
@@ -374,7 +374,7 @@ for i, (site, title) in enumerate(zip(sites, titles)):
 
 fig.suptitle("Factor of Safety Profiles – All Six Sites (2011 Christchurch)", fontsize=13, y=1.02)
 plt.tight_layout()
-plt.savefig("FS_profiles_all_six_sites.png", dpi=300, bbox_inches="tight")
+plt.savefig("../plots/FS_profiles_all_six_sites.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 print("\nAll analyses and plots completed successfully.")
