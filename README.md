@@ -50,9 +50,9 @@ Thin-layer correction changed the numerical FS values (sometimes substantially) 
 
 ### Requirements
 
-pandas  
-numpy  
-matplotlib  
+See `requirements.txt`. Install with:
+
+pip install -r requirements.txt
 
 The Canterbury CPT dataset (`CANTERBURYDATASET.pkl`) from Geyin et al. (2021) is required to re-run the analysis, and is available from the DesignSafe-CI data depot under project PRJ-2937 (https://www.designsafe-ci.org/data/browser/public/designsafe.storage.published/PRJ-2937). Place the file in the repository root before running the script.
 
