@@ -4,7 +4,7 @@
 
 Python implementation of the Boulanger & Idriss (2014) CPT liquefaction-triggering procedure, applied to six real case histories from the 2011 Christchurch earthquake, one site for each observed surface manifestation severity (Class 0 = no damage → Class 5 = severe lateral spreading).
 
-Independent technical exercise · July 2026  
+Independent Geotechnical Research Project · July 2026  
 Author: Nyarko Kennedy · Materials Laboratory, Ghana Highway Authority
 
 ---
