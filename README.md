@@ -31,7 +31,7 @@ Author: Nyarko Kennedy · Materials Laboratory, Ghana Highway Authority
 Every site (including the Class 0 “no manifestation” site) produced a minimum FS < 1.0.  
 The calculated FS values do **not** rank in the same order as the real-world surface damage severity.
 
-This is the deliberate, counter-intuitive result the project is built around — and the reason for the title. This highlights an important distinction between liquefaction triggering and the severity of surface manifestations. These results show that FS alone does not reliably rank sites by observed manifestation severity — a gap that motivates looking beyond triggering FS toward severity-index or displacement-based approaches (e.g. LPI, LSN) for practical hazard assessment.
+This is the deliberate, counter-intuitive result the project is built around and the reason for the title. This highlights an important distinction between liquefaction triggering and the severity of surface manifestations. These results show that FS alone does not reliably rank sites by observed manifestation severity. This is a gap that motivates looking beyond triggering FS toward severity-index or displacement-based approaches (e.g. LPI, LSN) for practical hazard assessment.
 
 Thin-layer correction changed the numerical FS values (sometimes substantially) but never moved any site across the FS = 1.0 threshold, and did not restore a monotonic severity ranking.
 
